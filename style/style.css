@@ -163,6 +163,11 @@ body{
         height: 350px;
     }
 
+    .header p{
+        font-size: 1.6em;
+        text-align: justify;
+    }
+
     .datos_personales a:hover{
         color: #75578d
     };
