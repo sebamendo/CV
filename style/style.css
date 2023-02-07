@@ -85,7 +85,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background: transparent;
 }
 
 .lenguajes p{
@@ -100,8 +100,16 @@ body{
 
 .lenguajes .lang{
     width: 70%;
-    margin-top:70px;
+    margin-top:50px;
     filter: drop-shadow(3px 3px 6px #23a38e);
+}
+
+.lenguajes .card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: none;
 }
 
 .proyectos{
@@ -111,6 +119,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.proyectos .p1{
+    background-image: url(CV/media/web1.jpg);
 }
 
 .proyectos .p1, .p2, .p3{
@@ -173,6 +185,18 @@ body{
 
     .p1 a:hover, .p2 a:hover, .p3 a:hover{
     color: #75578d;
+    }
+
+    .lenguajes{
+        display: flex;
+        flex-direction: initial;
+        flex-wrap: wrap;
+    }
+
+    .lenguajes .card{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
     }
 
     .lenguajes .lang{
